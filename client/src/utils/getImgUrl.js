@@ -14,7 +14,7 @@ export function getImgUrl(track, size) {
         return track.img.replace("large.jpg", "t300x300.jpg");
       }
       if (size === "lg") {
-        return track.img.replace("large.jpg", "t500x500.jpg");
+        return track.img.replace("large.jpg", "original.jpg");
       }
     } else if (track.source === "spotify") {
       if (!track.img.length) {
